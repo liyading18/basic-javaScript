@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table,tr,td,th {
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <button id="create">创建li</button>
+    <button id="remove">删除li</button>
+    <ul>
+        <li>我是li1</li>
+    </ul> -->
+    <!-- <script>
+        var btn =document.querySelector('button');
+        var ul = document.querySelector('ul');
+        btn.onclick = function () {
+            var newLi = document.createElement('li');
+            ul.appendChild(newLi);
+            newLi.innerText = "我是新来的li";
+        };
+    </script> -->
+    <!-- <script>
+        var btn = document.querySelector('button');
+        var ul = document.querySelector('ul');
+        btn.onclick = function() {
+            var newLi = document.createElement('li');
+            ul.appendChild(newLi);
+            newLi.innerText = '我是新来的li';
+        };
+    </script> -->
+    <!-- <script>
+        var btn = document.querySelector('button');
+        var ul = document.querySelector('ul');
+        btn.onclick = function() {
+            var newLi = document.createElement('li');
+            ul.appendChild(newLi);
+            newLi.innerText = '我是新来的li';
+        };
+    </script> -->
+    <!-- <script>
+        var btn = document.querySelector('#create');
+        var btn2 = document.querySelector('#remove');
+        var ul = document.querySelector('ul');
+        var li = document.querySelector('li');
+        btn.onclick = function() {
+            var newLi = document.createElement('li');
+            ul.appendChild(newLi);
+            newLi.innerText = '我是新来的li';
+        };
+        btn2.onclick = function() {
+            ul.removeChild(li);
+        };
+    </script>  -->
+    <!-- 删除元素 -->
+    <!-- <script>
+        var btn = document.querySelector('button');
+        var ul = document.querySelector('ul');
+        var li = document.querySelector('li');
+        btn.onclick = function() {
+            ul.removeChild(li);
+        };
+
+    </script> -->
+    <!-- <script>
+        var btn = document.querySelector('button');
+        btn.onclick = function () {
+            var ul = document.querySelector('ul');
+            var oldLi = ul.children[0];
+            var newLi = document.createElement('li');
+            newLi.innerText = '我是新的li';
+            // 添加
+            // ul.insertBefore(newLi, oldLi);
+            // 替换
+            // ul.replaceChild(newLi,oldLi);
+            // var newUl = ul.cloneNode();
+            var newUl = ul.cloneNode(true);
+
+            document.body.appendChild(newUl);
+        };
+    </script> -->
+   
+</body>
+
+</html>
